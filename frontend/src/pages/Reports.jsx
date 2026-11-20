@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:5000/api/reports";
+const API = "https://batloungfarmsystem-production.up.railway.app/api/reports";
 
 function Reports() {
   const today = new Date();
@@ -308,3 +308,4 @@ function Reports() {
 }
 
 export default Reports;
+

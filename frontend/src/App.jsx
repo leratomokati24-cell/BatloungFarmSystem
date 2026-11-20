@@ -23,7 +23,7 @@ import Payments from "./pages/Payments";
 import Reports from "./pages/Reports";
 import BusinessLocation from "./pages/BusinessLocation";
 
-const API = "http://localhost:5000";
+const API = "https://batloungfarmsystem-production.up.railway.app";
 
 const navigation = [
   "Dashboard",
@@ -1171,3 +1171,4 @@ function App() {
 }
 
 export default App;
+

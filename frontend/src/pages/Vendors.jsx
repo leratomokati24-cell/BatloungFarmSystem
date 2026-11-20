@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:5000/api/vendors";
+const API = "https://batloungfarmsystem-production.up.railway.app/api/vendors";
 
 function Vendors() {
     const emptyForm = {
@@ -399,3 +399,4 @@ function Vendors() {
 }
 
 export default Vendors;
+

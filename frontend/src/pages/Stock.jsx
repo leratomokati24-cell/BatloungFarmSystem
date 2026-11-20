@@ -1,7 +1,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 
-const API_URL = "http://localhost:5000/api/stock-management";
+const API_URL = "https://batloungfarmsystem-production.up.railway.app/api/stock-management";
 const LOW_STOCK_LIMIT = 10;
 
 function Stock() {
@@ -234,3 +234,4 @@ function Stock() {
 }
 
 export default Stock;
+

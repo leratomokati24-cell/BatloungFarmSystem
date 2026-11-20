@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 
 import "../styles/Pages.css";
 
-const API = "http://localhost:5000/api";
+const API = "https://batloungfarmsystem-production.up.railway.app/api";
 
 function Payments() {
   const [sales, setSales] = useState([]);
@@ -485,3 +485,4 @@ function Payments() {
 }
 
 export default Payments;
+

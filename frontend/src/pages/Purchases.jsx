@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:5000/api";
+const API = "https://batloungfarmsystem-production.up.railway.app/api";
 
 function Purchases() {
   const [purchases, setPurchases] = useState([]);
@@ -451,3 +451,4 @@ function Purchases() {
 }
 
 export default Purchases;
+

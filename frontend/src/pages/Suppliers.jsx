@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:5000/api/suppliers";
+const API = "https://batloungfarmsystem-production.up.railway.app/api/suppliers";
 
 function Suppliers() {
     const [suppliers, setSuppliers] = useState([]);
@@ -422,3 +422,4 @@ function Suppliers() {
 }
 
 export default Suppliers;
+

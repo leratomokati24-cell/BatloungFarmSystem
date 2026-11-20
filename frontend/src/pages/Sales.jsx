@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:5000/api";
+const API = "https://batloungfarmsystem-production.up.railway.app/api";
 
 const emptyItem = {
     fruit_id: "",
@@ -594,3 +594,4 @@ function Sales() {
 }
 
 export default Sales;
+
