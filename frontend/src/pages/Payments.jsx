@@ -1,7 +1,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 
-import "../styles/Pages.css";
+import "../styles/pages.css";
 
 const API = "https://batloungfarmsystem-production.up.railway.app/api";
 
@@ -31,8 +31,10 @@ function Payments() {
   }
 
   function getBalance(sale) {
-    if (sale.outstanding_balance !== undefined &&
-        sale.outstanding_balance !== null) {
+    if (
+      sale.outstanding_balance !== undefined &&
+      sale.outstanding_balance !== null
+    ) {
       return Math.max(0, Number(sale.outstanding_balance));
     }
 
@@ -145,6 +147,7 @@ function Payments() {
       }
 
       closePaymentForm();
+
       setMessage(
         data.message || "Payment recorded successfully."
       );
@@ -485,4 +488,3 @@ function Payments() {
 }
 
 export default Payments;
-
